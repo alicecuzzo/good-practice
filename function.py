@@ -8,6 +8,7 @@ def ok_function():
 def download_text_from_web():
     r= requests.get('https://docs.python.org/3/library/unittest.mock.html')
     print('got text')
+    print 'boho'
     m = requests.get('https://docs.google.com/document/d/1QV3zLaG20DLFMvTzsOlrI_YsMOU-5kN3il1NmpvZ0FY/edit#')
     return r.text
 
